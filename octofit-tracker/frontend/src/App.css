@@ -1,0 +1,145 @@
+/* Custom color scheme for OctoFit Tracker */
+:root {
+  --fitness-primary: #007bff; /* Blue */
+  --fitness-secondary: #28a745; /* Green */
+  --fitness-accent: #ffc107; /* Yellow */
+  --fitness-dark: #343a40; /* Dark */
+  --fitness-light: #f8f9fa; /* Light */
+  --fitness-background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* Gradient background */
+  --fitness-text: #333;
+  --fitness-heading: #495057;
+  --fitness-link: #007bff;
+  --fitness-link-hover: #0056b3;
+}
+
+/* Body background */
+body {
+  background: var(--fitness-background);
+  background-attachment: fixed;
+  color: var(--fitness-text);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--fitness-heading);
+  font-weight: 600;
+}
+
+/* Links */
+a {
+  color: var(--fitness-link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--fitness-link-hover);
+  text-decoration: underline;
+}
+
+/* Navigation */
+.navbar {
+  background: linear-gradient(90deg, var(--fitness-primary), var(--fitness-secondary)) !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: white !important;
+}
+
+.nav-link {
+  color: rgba(255,255,255,0.9) !important;
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+/* Tables */
+.table {
+  background-color: rgba(255,255,255,0.9);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.table thead th {
+  background: linear-gradient(90deg, var(--fitness-primary), var(--fitness-secondary));
+  color: white;
+  border: none;
+  font-weight: 600;
+}
+
+.table tbody tr:hover {
+  background-color: rgba(0,123,255,0.1);
+}
+
+/* Buttons */
+.btn-primary {
+  background: linear-gradient(90deg, var(--fitness-primary), var(--fitness-secondary));
+  border: none;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Alerts */
+.alert {
+  border-radius: 8px;
+  border: none;
+}
+
+/* Spinners */
+.spinner-border {
+  color: var(--fitness-primary);
+}
+
+/* Cards (if used later) */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border: none;
+}
+
+/* Forms (if used later) */
+.form-control {
+  border-radius: 8px;
+  border: 2px solid #e9ecef;
+}
+
+.form-control:focus {
+  border-color: var(--fitness-primary);
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+/* Modals (if used later) */
+.modal-content {
+  border-radius: 12px;
+  border: none;
+}
+
+/* Container */
+.container {
+  background: rgba(255,255,255,0.95);
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
