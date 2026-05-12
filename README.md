@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎉 Congratulations sachin-khartode-epam! 🎉
+# 🎉 Congratulations sachin-khartode-public! 🎉
 
 <img src="https://octodex.github.com/images/welcometocat.png" height="200px" />
 
